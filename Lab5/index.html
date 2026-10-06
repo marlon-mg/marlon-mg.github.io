@@ -7,24 +7,26 @@
   </head>
 
   <body>
+    <h1>Volunteer Form</h1>
     <fieldset>
       <legend>My Info</legend>
         <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"method="post">
         <div>
-        <!-- FIRST NAME -->
+        
           <label for="first_name_field">First name:</label><br>  
-          <input type="text" id="first_name_field" name="first_name_field">
-          
+          <input type="text" id="first_name_field" name="first_name_field required">
+
           <label for="last_name_field">Last name:</label><br>  
-          <input type="text" id="last_name_field" name="last_name_field">
+          <input type="text" id="last_name_field" name="last_name_field" required>
         </div>
-        <input type="submit" value="Submit Query”">
-      </form>
     </fieldset>
 
     <fieldset>
       <legend>My Availability</legend>
 
     </fieldset>
+    <input type="submit" value="Submit Query”">
+
+    </form>
   </body>
   </html>
