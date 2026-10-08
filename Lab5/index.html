@@ -8,22 +8,69 @@
 
   <body>
     <h1>Volunteer Form</h1>
-    <fieldset>
-      <legend>My Info</legend>
-        <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"method="post">
-        <div>
+
+    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"method="post">
+    
+      <fieldset>
+        <legend>My Info</legend>
+          <div>
         
-          <label for="first_name_field">First name:</label><br>  
-          <input type="text" id="first_name_field" name="first_name_field required">
+            <label for="first_name_field">First name:</label><br>  
+            <input type="text" id="first_name_field" name="first_name_field" required>
 
-          <label for="last_name_field">Last name:</label><br>  
-          <input type="text" id="last_name_field" name="last_name_field" required>
-        </div>
-    </fieldset>
+            <label for="last_name_field">Last name:</label><br>  
+            <input type="text" id="last_name_field" name="last_name_field" required>
 
-    <fieldset>
+            <label for="phone_field">Phone:</label><br>  
+            <input type="tel" id="phone_field" name="phone_field">
+
+            <label for="email_field">Email:</label><br>  
+            <input type="email" id="email_field" name="email_field">
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <label for="age_field">Age:</label><br>
+            <select id="age_field" name="age_field">
+              <option value="under_18">Under 18</option>
+              <option value="18-25">18-25</option>
+              <option value="26-35">26-35</option>
+              <option value="36-45">35-45</option>
+              <option value="46-55">46-50</option>
+              <option value="56+">56+</option>
+            </select>   
+          </div>
+      </fieldset>
+      <input type="hidden" name="hidden_field" value="Marlon Guaraca">
+   
+      <fieldset>
       <legend>My Availability</legend>
 
+      <h2>Days Available:</h2>
+      <div> 
+        <input type="checkbox" id="Sunday" name="days_available[]" value="sunday">
+        <label for="sunday">Sunday</label><br>      
+        <input type="checkbox" id="Monday" name="days_available[]" value="monday">
+        <label for="monday">Monday</label><br>
+        <input type="checkbox" id="Tuesday" name="days_available[]" value="tuesday">
+        <label for="tuesday">Tuesday</label><br>
+        <input type="checkbox" id="Wednesday" name="days_available[]" value="wednesday">
+        <label for="wednesday">Wednesday</label><br>
+        <input type="checkbox" id="Thursday" name="days_available[]" value="thursday">
+        <label for="thursday">Thursday</label><br>
+        <input type="checkbox" id="Friday" name="days_available[]" value="friday">
+        <label for="friday">Friday</label><br>
+        <input type="checkbox" id="Saturday" name="days_available[]" value="saturday">
+        <label for="saturday">Saturday</label><br>
+      </div>
+
+      <h2>Comments</h2>
+      <div>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+      </div>
     </fieldset>
     <input type="submit" value="Submit Query”">
 
