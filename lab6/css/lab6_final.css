@@ -58,9 +58,28 @@ h2 strong {       font-weight: 900;<br>
 #main-nav {   float: left;<br>
     width: 100%;<br>
     background-color: #333;}
-#main-nav ul
-#main-nav ul li
-#main-nav ul li a
-#main-nav ul li a:hover
-#center
-strong
+
+#main-nav ul {   list-style-type: none;<br>
+    margin: 0;<br>
+    padding: 0;<br>
+    float: left;<br>
+    position: relative;<br>
+    left:50%;}
+
+#main-nav ul li {   background-image: url("../images/repeating.png");<br>
+    float: left;}
+
+#main-nav ul li a {   padding: 10px 25px;<br>
+    display: block;<br>
+    text-decoration: none;<br>
+    color: #ccc;}
+
+#main-nav ul li a:hover {   background-color: #ccc;<br>
+    color: #333;}
+
+#center {       width: 960px;<br>
+        text-align: center;}
+
+strong {       font-weight: 900;<br>
+        font-size: 48px;}
+				
