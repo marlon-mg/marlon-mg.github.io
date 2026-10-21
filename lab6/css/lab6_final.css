@@ -31,9 +31,8 @@ body {   background-image: url("../images/black.jpg"); }
     height: 80px;
     clear: both;}
 
-#content-wrapper {   float: left;
-    width: 100%;
-    background-color: #333;}
+#content-wrapper  {   background-image: url("../images/repeating.png");
+    float: left;}
 
 #main-content {   min-height: 300px;
     width: 715px;
@@ -66,8 +65,9 @@ h2 strong {       font-weight: 900;
     position: relative;
     left:50%;}
 
-#main-nav ul li {   background-image: url("../images/repeating.png");
-    float: left;}
+#main-nav ul li {   float: left;
+    position: relative;
+    right: 50%;}
 
 #main-nav ul li a {   padding: 10px 25px;
     display: block;
