@@ -9,7 +9,7 @@ body {   background-image: url("../images/black.jpg"); }
   margin-top: 40px;<br>
   border-radius: 12px 12px 0px 0px;}
 
-#header h1 {{   position: absolute;<br>
+#header h1 {   position: absolute;<br>
     left: 420px;<br>
     top:5px;<br>
   font-size: 3em;<br>
@@ -82,4 +82,3 @@ h2 strong {       font-weight: 900;<br>
 
 strong {       font-weight: 900;<br>
         font-size: 48px;}
-				
