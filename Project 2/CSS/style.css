@@ -43,12 +43,12 @@ body.home{
   margin: 0 auto;
   text-align: center;
   background-color:#eee;
-  color:#333;
+  color:black;
   padding: 20px;
 }
 /*Style 3*/
 body.home h1{
-  color: #0000ff;
+  color:black;
   font-size:2em;
 }
 /*Style 4*/
