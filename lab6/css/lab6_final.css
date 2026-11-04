@@ -74,7 +74,8 @@ h2 strong {       font-weight: 900;
     text-decoration: none;
     color: #ccc;}
 
-#main-nav ul li a:hover {   background-color: #ccc;
+#main-nav ul li a:hover {   
+    background-color: #ccc;
     color: #333;}
 
 #center {       width: 960px;
