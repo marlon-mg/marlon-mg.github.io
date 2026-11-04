@@ -62,12 +62,12 @@ body.home p{
 
 /*Page3*/
 /*Style 1*/
-body.home{
+body.page3{
   background-color: #333;
   color: white;
 }
 /*Style 2*/
-body.home{
+body.page3{
   width:90%;
   margin: 0 auto;
   text-align: center;
@@ -76,26 +76,26 @@ body.home{
   padding: 20px;
 }
 /*Style 3*/
-body.home h1{
+body.page3 h1{
   color: #0000ff;
   font-size:2em;
 }
 /*Style 4*/
-body.home h2{
+body.page3 h2{
   font-family:'Lucida Sans', sans-serif;
 }
 /*Style 5*/
-body.home p{
+body.page3 p{
   line-height: 1.8;
 }
 
 /*Resume*/
-body.home{
+body.resume{
   background-color: #333;
   color: white;
 }
 /*Style 2*/
-body.home{
+body.resume{
   width:90%;
   margin: 0 auto;
   text-align: center;
@@ -104,15 +104,15 @@ body.home{
   padding: 20px;
 }
 /*Style 3*/
-body.home h1{
+body.resume h1{
   color: #0000ff;
   font-size:2em;
 }
 /*Style 4*/
-body.home h2{
+body.resume h2{
   font-family:'Lucida Sans', sans-serif;
 }
 /*Style 5*/
-body.home p{
+body.resume p{
   line-height: 1.8;
 }
