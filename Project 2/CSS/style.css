@@ -40,25 +40,40 @@ body{
   line-height: 1.6;
 }
 /*Style 2*/
-body{
-  width:90%;
-  margin: 0 auto;
-  text-align: center;
-  background-color:#f2f2f2;
-  color:#000;
-  padding: 20px;
+header h1{
+  margin:0;
+  padding: 1.5em 5% 0.5em 5%;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  color:#0000ff;
 }
 /*Style 3*/
-body h1{
-  color:#0000ff;
-  font-size:2em;
+.info{
+  width:90%
+  margin:0 auto;
+  padding-bottom: 2em;
 }
 /*Style 4*/
-body h2{
-  font-family: "Lucida Console", "Courier New", monospace;
+div.gallery{
+  display: flex;
+  flex-wrap:warp;
+  justify-content: flex-start;
 }
 /*Style 5*/
-body p{
-  line-height: 1.8;
+div.gallery-item{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width:180px;
+}
+/*Style 6*/
+div.gallery-item img{
+  width:100%;
+  height: auto; 
+}
+/*Syle 7*/
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
