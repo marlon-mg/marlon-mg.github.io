@@ -3,6 +3,7 @@
   border-bottom: 0.2em solid red;
   text-align: center;
   width: 960px;
+  float: left;
   margin: 0 auto;
 }
 
