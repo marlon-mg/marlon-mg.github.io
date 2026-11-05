@@ -42,7 +42,7 @@ body{
   line-height: 1.6;
 }
 /*Style 2*/
-header h1{
+body h1{
   margin: 0;
   padding: 1.5em 5% 0.5em 5%;
   text-align: center;
