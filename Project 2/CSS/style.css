@@ -50,14 +50,14 @@ header h1{
 }
 /*Style 3*/
 .info{
-  width:90%
+  width:90%;
   margin:0 auto;
   padding-bottom: 2em;
 }
 /*Style 4*/
 div.gallery{
   display: flex;
-  flex-wrap:warp;
+  flex-wrap:wrap;
   justify-content: flex-start;
 }
 /*Style 5*/
