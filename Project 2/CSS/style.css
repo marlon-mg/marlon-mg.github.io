@@ -12,7 +12,7 @@
   padding: 0;
   float: left;
   position: relative;
-  left:50%;
+  left: 50%;
 }
 
 #main-nav ul li {   
@@ -25,10 +25,10 @@
   padding: 10px 25px;
   display: block;
   text-decoration: none;
-  color:#000;
+  color: #000;
 }
 #main-nav ul li a:hover {   
-  background-color:#F00;
+  background-color: #F00;
   color: #000;
 }
 /*index.html*/
@@ -36,41 +36,41 @@
 /*Style 1*/
 body{
   margin: 0;
-  background-color:aliceblue;
-  color:#000;
+  background-color: aliceblue;
+  color: #000;
   font-family: "Lucida Console", "Courier New", monospace;
   line-height: 1.6;
 }
 /*Style 2*/
 header h1{
-  margin:0;
+  margin: 0;
   padding: 1.5em 5% 0.5em 5%;
-  text-align:center;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5em;
-  color:#0000ff;
+  color: #0000ff;
 }
 /*Style 3*/
 .info{
-  width:90%;
-  margin:0 auto;
+  width: 90%;
+  margin: 0 auto;
   padding-bottom: 2em;
 }
 /*Style 4*/
 div.gallery{
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 /*Style 5*/
 div.gallery-item{
   margin: 5px;
   border: 1px solid #ccc;
-  width:180px;
+  width: 180px;
 }
 /*Style 6*/
 div.gallery-item img{
-  width:100%;
+  width: 100%;
   height: auto; 
 }
 /*Syle 7*/
