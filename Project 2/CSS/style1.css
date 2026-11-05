@@ -40,7 +40,7 @@ body.resume{
   margin: 0 auto;
   text-align: center;
   background-color:beige;
-  color:black;
+  color:#000;
   padding: 20px;
 }
 /*Style 3*/
@@ -50,7 +50,7 @@ body.resume h1{
 }
 /*Style 4*/
 body.resume h2{
-  font-family:'Lucida Sans', sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 /*Style 5*/
 body.resume p{

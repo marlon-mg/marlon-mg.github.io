@@ -40,7 +40,7 @@ body.page3{
 body.page3{
   width:90%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   background-color:aquamarine;
   color:black;
   padding: 20px;
@@ -52,7 +52,7 @@ body.page3 h1{
 }
 /*Style 4*/
 body.page3 h2{
-  font-family:'Lucida Sans', sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 /*Style 5*/
 body.page3 p{
