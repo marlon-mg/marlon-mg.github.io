@@ -1,14 +1,14 @@
 #main-nav {   
-  float: left;
-  width: 100%;
-  background-color: #eee;
+  background-color: #000;
+  border-bottom: 0.2em solid red;
+  text-align: center;
 }
 
 #main-nav ul {   
   list-style-type: none;
   margin: 0;
   padding: 0;
-  float: center;
+  float: left;
   position: relative;
   left:50%;
 }
@@ -23,10 +23,10 @@
   padding: 10px 25px;
   display: block;
   text-decoration: none;
-  color:#555;
+  color:#000;
 }
 #main-nav ul li a:hover {   
-  background-color:#ddd;
+  background-color:#F00;
   color: #000;
 }
 
