@@ -31,28 +31,30 @@
 }
 
 /*Resume*/
-body.resume{
+body{
   background-color: #333;
 }
 /*Style 2*/
-body.resume{
+body{
   width:90%;
   margin: 0 auto;
   text-align: center;
   background-color:beige;
   color:#000;
-  padding: 20px;
+  padding: 30px;
 }
 /*Style 3*/
-body.resume h1{
+body h1{
   color: #0000ff;
   font-size:2em;
+  text-align: center;
 }
 /*Style 4*/
-body.resume h2{
+body h2{
   font-family: "Lucida Console", "Courier New", monospace;
 }
 /*Style 5*/
-body.resume p{
+body p{
   line-height: 1.8;
+  color: #444444;
 }

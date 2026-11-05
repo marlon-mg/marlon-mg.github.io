@@ -33,11 +33,11 @@
 /*Page3*/
 
 /*Style 1*/
-body.page3{
+body{
   background-color: #333;
 }
 /*Style 2*/
-body.page3{
+body{
   width:90%;
   margin: 0 auto;
   text-align: left;
@@ -46,15 +46,15 @@ body.page3{
   padding: 20px;
 }
 /*Style 3*/
-body.page3 h1{
+body h1{
   color: #0000ff;
   font-size:2em;
 }
 /*Style 4*/
-body.page3 h2{
+body h2{
   font-family: "Times New Roman", Times, serif;
 }
 /*Style 5*/
-body.page3 p{
+body p{
   line-height: 1.8;
 }
