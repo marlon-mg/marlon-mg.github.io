@@ -23,11 +23,11 @@
   padding: 10px 25px;
   display: block;
   text-decoration: none;
-  color: #ccc;
+  color:#555;
 }
 #main-nav ul li a:hover {   
-  background-color:#eee;
-  color: white;
+  background-color:#ccc;
+  color: #000;
 }
 
 /*Resume*/
