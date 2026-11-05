@@ -49,6 +49,9 @@ body h1{
   font-size: 2.5em;
   color: #0000ff;
 }
+body h2{
+  text-align: center;
+}
 /*Style 3*/
 .info{
   width: 90%;
