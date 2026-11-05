@@ -19,7 +19,7 @@
   float: left;
   position: relative;
   right: 50%;
-  }
+}
 
 #main-nav ul li a {   
   padding: 10px 25px;
@@ -33,11 +33,11 @@
 }
 
 /*Resume*/
-body{
+body {
   background-color: #333;
 }
 /*Style 2*/
-body{
+body {
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -46,17 +46,17 @@ body{
   padding: 0;
 }
 /*Style 3*/
-body h1{
+body h1 {
   color: #0000ff;
   font-size: 2em;
   text-align: center;
 }
 /*Style 4*/
-body h2{
+body h2 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 /*Style 5*/
-body p{
+body p {
   line-height: 1.8;
   color: #444444;
 }
