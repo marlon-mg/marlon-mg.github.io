@@ -60,7 +60,7 @@ header h1{
 div.gallery{
   display: flex;
   flex-wrap:wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 /*Style 5*/
 div.gallery-item{
