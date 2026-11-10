@@ -15,7 +15,7 @@ function init(){
 
     function myFunction() {
         var message = document.getElementById("entryinput").value;
-        alert(message);
+        alert("Marlon Guaraca " + message);
         document.getElementById("textoutput").textContent = message;
     }
 
