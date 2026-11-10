@@ -1,7 +1,7 @@
 function init(){
 // add your javascript code below
 // Create a variable to store button object content
-    var button = document.getElementById("myButton");
+    var button = document.getElementById("entryButton");
 
     // Create a function for the addEventListener (myFunction) {
 
@@ -14,9 +14,9 @@ function init(){
 
 
     function myFunction() {
-        var message = document.getElementById("myTextbox").value;
+        var message = document.getElementById("entryinput").value;
         alert(message);
-        document.getElementById("myHeading").textContent = message;
+        document.getElementById("textoutput").textContent = message;
     }
 
     button.addEventListener("click", myFunction);
