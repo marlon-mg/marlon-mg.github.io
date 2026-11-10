@@ -1,7 +1,7 @@
 function init(){
 // add your javascript code below
 // Create a variable to store button object content
-    var button = document.getElementById("entryButton");
+    var button = document.getElementById("entrybutton");
 
     // Create a function for the addEventListener (myFunction) {
 
