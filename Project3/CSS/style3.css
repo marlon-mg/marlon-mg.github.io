@@ -49,3 +49,16 @@ body h1 {
   font-size: 2.5em;
   color: #0000ff;
 }
+
+/*Style1*/
+#map {
+  height: 400px;
+  width: 100%;
+}
+#questions {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
