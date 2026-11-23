@@ -37,3 +37,7 @@ html, body {
   background-color: #F00;
   color: #000;
 }
+
+body {
+  margin: 0;
+}
