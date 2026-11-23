@@ -32,6 +32,9 @@
   color: #000;
 }
 
+/*index.html*/
+
+/*Style 1*/
 body {
   margin: 0;
   background-color: aliceblue;
@@ -39,7 +42,7 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
   line-height: 1.6;
 }
-
+/*Style 2*/
 body h1 {
   margin: 0;
   padding: 1.5em 5% 0.5em 5%;
