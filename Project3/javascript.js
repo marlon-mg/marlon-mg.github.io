@@ -15,4 +15,29 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+function initMap() {
+  const iit= { lat: 41.8355, lng: -87.6244 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    center: iit,
+    zoom: 15,
+  });
 
+  const marker = new google.maps.Marker({
+    position: iit,
+    map: map,
+    title: "Illinois Institute of Technology",
+  });
+
+  const info = new google.maps.InfoWindow({
+    content: "<h3>Illinois Institute of Technology</h3><p>Chicago, Illinois</p>",
+  });
+  marker.addListener("click", () => {
+    info.open({ anchor: marker, map });
+  });
+  map.addListener("click", (event) => {
+    new google.maps.Marker({
+      position: event.latLng,
+      map: map,
+    });
+  });
+}
