@@ -82,6 +82,9 @@ div.gallery-item div.desc {
 }
 
 @media screen and (max-width: 600px) {
+  body{
+    background-color: lightgreen;
+  }
   body h1 {
     font-size: 2em;
   }
@@ -94,6 +97,9 @@ div.gallery-item div.desc {
 }
 
 @media screen and (min-width: 800px) {
+  body{
+    background-color: magenta;
+  }
   body h1 {
     font-size: 3em;
   }
