@@ -66,3 +66,33 @@ body p {
   line-height: 1.8;
   color: #444444;
 }
+
+@media screen and (min-width: 600px) {
+  body{
+    background-color: lightgreen;
+  }
+  body h1 {
+    font-size: 2em;
+  }
+  div.gallery-item {
+    width: 200px;
+  }
+  div.gallery-item div.desc {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body{
+    background-color: magenta;
+  }
+  body h1 {
+    font-size: 3em;
+  }
+  div.gallery-item {
+    width: 250px;
+  }
+  div.gallery-item div.desc {
+    font-size: 1.2em;
+  }
+}
