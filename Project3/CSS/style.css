@@ -96,7 +96,7 @@ div.gallery-item div.desc {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   body{
     background-color: magenta;
   }
