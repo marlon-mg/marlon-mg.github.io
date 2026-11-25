@@ -21,7 +21,7 @@ function initMap() {
   var amc = { lat: 41.8694, lng: -87.6325 };
   var map = new google.maps.Map(document.getElementById("map"), {
     center: iit,
-    zoom: 13,
+    zoom: 11,
   });
 
   var marker = new google.maps.Marker({
