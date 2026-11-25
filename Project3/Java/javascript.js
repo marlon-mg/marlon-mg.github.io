@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function initMap() {
   var iit = { lat: 41.8355, lng: -87.6244 };
+  var food = { lat:41.904971, lng: -87.668483 };
+  var amc = { lat: 41.8694, lng: -87.6325 };
   var map = new google.maps.Map(document.getElementById("map"), {
     center: iit,
     zoom: 15,
@@ -34,6 +36,34 @@ function initMap() {
 
   marker.addListener("click", () => {
     info.open({ anchor: marker, map });
+  });
+
+  var foodMarker = new google.maps.Marker({
+    position: food,
+    map: map,
+    title: "Iron Age Korean Steakhouse",
+  });
+
+  var foodInfo = new google.maps.InfoWindow({
+    content: "<h3>Iron Age Korean Steakhouse</h3><p>My favorite restaurant in Chicago.</p>",
+  });
+
+  foodMarker.addListener("click", () => {
+    foodInfo.open({ anchor: foodMarker, map });
+  });
+
+  var amcMarker = new google.maps.Marker({
+    position: amc,
+    map: map,
+    title: "AMC",
+  });
+
+  var amcInfo = new google.maps.InfoWindow({
+    content: "<h3>AMC</h3><p>My favorite movie theater in Chicago.</p>",
+  });
+
+  amcMarker.addListener("click", () => {
+    amcInfo.open({ anchor: amcMarker, map });
   });
 }
 
