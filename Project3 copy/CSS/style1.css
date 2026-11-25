@@ -42,7 +42,6 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
   line-height: 1.6;
 }
-
 /*Style 2*/
 body h1 {
   margin: 0;
@@ -52,6 +51,8 @@ body h1 {
   font-size: 2.5em;
   color: #0000ff;
 }
+
+
 /*Style 3*/
 body h2 {
   font-family: "Lucida Console", "Courier New", monospace;
