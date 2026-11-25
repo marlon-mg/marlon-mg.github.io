@@ -80,10 +80,10 @@ div.gallery-item div.desc {
   padding: 15px;
   text-align: center;
 }
-/*media*/
-@media screen and (max-width: 800px) {
+/*media 1*/
+@media screen and (min-width: 600px) {
   body{
-    background-color: lightgreen;
+    background-color: lightblue;
   }
   body h1 {
     font-size: 2em;
@@ -95,10 +95,10 @@ div.gallery-item div.desc {
     font-size: 1em;
   }
 }
-
-@media screen and (max-width: 500px) {
+/*media 2*/
+@media screen and (min-width: 800px) {
   body{
-    background-color: magenta;
+    background-color: lightgreen;
   }
   body h1 {
     font-size: 3em;

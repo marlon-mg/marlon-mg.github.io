@@ -50,7 +50,7 @@ body h1 {
   color: #0000ff;
 }
 
-/*Style1*/
+/*map*/
 #map {
   height: 400px;
   width: 100%;
@@ -63,9 +63,10 @@ body h1 {
   cursor: pointer;
 }
 
-@media screen and (min-width: 400px) {
+/*media 1*/
+@media screen and (min-width: 600px) {
   body{
-    background-color: lightgreen;
+    background-color: lightblue;
   }
   body h1 {
     font-size: 2em;
@@ -78,9 +79,10 @@ body h1 {
   }
 }
 
-@media screen and (min-width: 600px) {
+/*media 2*/
+@media screen and (min-width: 800px) {
   body{
-    background-color: magenta;
+    background-color: lightgreen;
   }
   body h1 {
     font-size: 3em;
