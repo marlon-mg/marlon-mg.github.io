@@ -81,7 +81,7 @@ div.gallery-item div.desc {
   text-align: center;
 }
 /*media*/
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 800px) {
   body{
     background-color: lightgreen;
   }
@@ -96,7 +96,7 @@ div.gallery-item div.desc {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   body{
     background-color: magenta;
   }
