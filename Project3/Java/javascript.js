@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var button = document.getElementById("questions");
   if (button) {
     button.addEventListener("click", function() {
-      alert("If you have questions, contact me at: mguaraca@hawk.illinoistech.edu");
+      alert("If you have questions, contact me at: \n mguaraca@hawk.illinoistech.edu");
     });
   }
 
