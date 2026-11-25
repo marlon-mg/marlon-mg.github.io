@@ -41,6 +41,7 @@ body {
   color: #000;
   font-family: "Lucida Console", "Courier New", monospace;
   line-height: 1.6;
+  text-align: center;
 }
 /*Style 2*/
 body h1 {
